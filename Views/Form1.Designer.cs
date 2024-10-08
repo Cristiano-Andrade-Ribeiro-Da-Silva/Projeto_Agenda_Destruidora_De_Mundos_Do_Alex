@@ -47,7 +47,7 @@
             botao_login.FlatStyle = FlatStyle.Flat;
             botao_login.Font = new Font("Arial", 9.75F, FontStyle.Bold | FontStyle.Italic);
             botao_login.ForeColor = Color.White;
-            botao_login.Location = new Point(249, 196);
+            botao_login.Location = new Point(49, 225);
             botao_login.Name = "botao_login";
             botao_login.Size = new Size(106, 37);
             botao_login.TabIndex = 0;
@@ -60,7 +60,7 @@
             botao_cadastrar.FlatStyle = FlatStyle.Flat;
             botao_cadastrar.Font = new Font("Arial", 9.75F, FontStyle.Bold | FontStyle.Italic);
             botao_cadastrar.ForeColor = Color.White;
-            botao_cadastrar.Location = new Point(441, 196);
+            botao_cadastrar.Location = new Point(241, 225);
             botao_cadastrar.Name = "botao_cadastrar";
             botao_cadastrar.Size = new Size(106, 37);
             botao_cadastrar.TabIndex = 1;
@@ -74,7 +74,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Arial", 9.75F, FontStyle.Bold | FontStyle.Italic);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(249, 7);
+            label1.Location = new Point(49, 36);
             label1.Name = "label1";
             label1.Size = new Size(54, 16);
             label1.TabIndex = 2;
@@ -86,7 +86,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Arial", 9.75F, FontStyle.Bold | FontStyle.Italic);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(249, 110);
+            label2.Location = new Point(49, 139);
             label2.Name = "label2";
             label2.Size = new Size(46, 16);
             label2.TabIndex = 5;
@@ -97,7 +97,7 @@
             textBox_senha.BackColor = Color.DodgerBlue;
             textBox_senha.Font = new Font("Arial", 9.75F, FontStyle.Italic);
             textBox_senha.ForeColor = Color.White;
-            textBox_senha.Location = new Point(249, 149);
+            textBox_senha.Location = new Point(49, 178);
             textBox_senha.Name = "textBox_senha";
             textBox_senha.PasswordChar = '☢';
             textBox_senha.Size = new Size(298, 22);
@@ -110,7 +110,7 @@
             textBox_usuario.BackColor = Color.DodgerBlue;
             textBox_usuario.Font = new Font("Arial", 9.75F, FontStyle.Italic);
             textBox_usuario.ForeColor = Color.White;
-            textBox_usuario.Location = new Point(249, 51);
+            textBox_usuario.Location = new Point(49, 80);
             textBox_usuario.Name = "textBox_usuario";
             textBox_usuario.Size = new Size(298, 22);
             textBox_usuario.TabIndex = 3;
@@ -120,7 +120,7 @@
             // cadeado_trancado
             // 
             cadeado_trancado.Image = Properties.Resources.cadeado_trancado;
-            cadeado_trancado.Location = new Point(25, 33);
+            cadeado_trancado.Location = new Point(100, 300);
             cadeado_trancado.Name = "cadeado_trancado";
             cadeado_trancado.Size = new Size(200, 200);
             cadeado_trancado.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -130,7 +130,7 @@
             // cadeado_destrancado
             // 
             cadeado_destrancado.Image = Properties.Resources.cadeado_destrancado;
-            cadeado_destrancado.Location = new Point(25, 33);
+            cadeado_destrancado.Location = new Point(100, 300);
             cadeado_destrancado.Name = "cadeado_destrancado";
             cadeado_destrancado.Size = new Size(200, 200);
             cadeado_destrancado.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -143,7 +143,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.RoyalBlue;
-            ClientSize = new Size(550, 260);
+            ClientSize = new Size(400, 500);
             Controls.Add(cadeado_destrancado);
             Controls.Add(cadeado_trancado);
             Controls.Add(label2);
